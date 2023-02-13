@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 export const colors = {
   white: '#FFF',
   black: '#000',
@@ -17,4 +18,5 @@ export const colors = {
   ignite900: '#00291D',
 
   test: '#fff',
+  testBlack: '#000',
 }
