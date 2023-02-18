@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { ComponentProps, ElementType } from 'react'
 import { styled } from '../styles'
 
@@ -26,6 +27,9 @@ export const Button = styled('button', {
 
   '&:disabled': {
     cursor: 'not-allowed',
+  },
+  '&:focus': {
+    boxShadow: '0 0 0 2px $colors$gray100',
   },
 
   variants: {
